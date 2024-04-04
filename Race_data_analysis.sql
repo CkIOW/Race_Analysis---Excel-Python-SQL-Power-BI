@@ -50,7 +50,8 @@ HAVING
     gender_rank < 4
 ORDER BY
     Total_Minutes ASC;
-    
+
+# Creating a view for specific columns 
 CREATE VIEW F_50 AS 
 SELECT Fullname, Place, `Time`, Total_Minutes, City, State, Age, Gender, latlong
 FROM cleaned_race_data;
